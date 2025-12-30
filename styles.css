@@ -16,7 +16,30 @@
   border-color: white;
 }
 
+h1 {
+  color: black;
+  text-shadow: 2px 2px 4px white;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+}
+
 .hero-img {
   max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /*Shifts text backwards by 50% of its own height and width */
+  text-align: center;
   width: 100%;
 }
