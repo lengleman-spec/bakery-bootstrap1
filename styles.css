@@ -44,7 +44,7 @@ h1 {
   width: 100%;
 }
 
-.card {
+.product-card {
   height: 100%;
   min-height: 250px;
   display: flex;
@@ -52,7 +52,7 @@ h1 {
   background: linear-gradient(to top, #b3e5ff, #66b2ff, #1b2f47);
 }
 
-.card img {
+.product-card img {
   max-height: 400px;
 }
 
@@ -61,11 +61,11 @@ h1 {
   object-fit: contain;
 }
 
-.products .card {
+.products .product-card {
   display: flex;
   flex-direction: column;
 }
 
-.card-body {
+.product-card-body {
   flex: 1;
 }
