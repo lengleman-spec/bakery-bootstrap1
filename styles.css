@@ -45,5 +45,27 @@ h1 {
 }
 
 .card {
-  width: 22rem;
+  height: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #b3e5ff, #66b2ff, #1b2f47);
+}
+
+.card img {
+  max-height: 400px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+}
+
+.products .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1;
 }
