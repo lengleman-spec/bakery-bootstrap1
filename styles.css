@@ -68,15 +68,10 @@ h1 {
 }
 
 /* Contact Form */
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1rem;
-  margin: 1.5rem;
-}
 
-form input {
+form input,
+form textarea {
   width: 80%;
+  margin: 0 auto;
+  display: block;
 }
