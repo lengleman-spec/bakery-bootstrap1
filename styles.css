@@ -75,3 +75,8 @@ form textarea {
   margin: 0 auto;
   display: block;
 }
+
+.line {
+  height: 2px;
+  width: 100%;
+}
