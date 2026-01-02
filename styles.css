@@ -51,30 +51,14 @@ h1 {
   width: 100%;
 }
 
-.product-card {
-  height: 100%;
-  min-height: 250px;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to top, #b3e5ff, #66b2ff, #1b2f47);
-}
-
-.product-card img {
-  max-height: 400px;
+.featured-section {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .card-img-top {
   height: 200px;
   object-fit: contain;
-}
-
-.products .product-card {
-  display: flex;
-  flex-direction: column;
-}
-
-.product-card-body {
-  flex: 1;
 }
 
 /* Menu */
