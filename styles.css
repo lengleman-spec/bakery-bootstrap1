@@ -97,4 +97,19 @@ form textarea {
   .menu-card-width {
     max-width: 900px;
   }
+
+  /* .card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.3s ease;
+  } */
+
+  .move-left:hover {
+    transform: translateX(-10px);
+    transition: transform 0.3s ease;
+  }
+
+  .move-right:hover {
+    transform: translateX(10px);
+    transition: transform 0.3s ease;
+  }
 }
