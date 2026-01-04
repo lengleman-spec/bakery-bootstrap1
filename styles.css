@@ -80,3 +80,17 @@ form textarea {
   height: 2px;
   width: 100%;
 }
+
+/* Media Queries */
+@media (min-width: 768px) {
+  /* md breakpoint */
+  .featured-section p,
+  .about-section p {
+    font-size: 1.25rem;
+  }
+
+  .about-section button {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+  }
+}
