@@ -61,6 +61,12 @@ h1 {
   object-fit: contain;
 }
 
+/* About Section */
+.about-btn:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+
 /* Menu */
 
 .menu-card-width {
