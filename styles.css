@@ -84,6 +84,9 @@ h1 {
 }
 
 /* Contact Form */
+.form-container {
+  max-width: 600px;
+}
 
 form input,
 form textarea {
