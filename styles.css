@@ -68,6 +68,9 @@ h1 {
 }
 
 /* Menu */
+#menu {
+  background: linear-gradient(to bottom, #0b1523, #0d3b66);
+}
 
 .menu-card-width {
   max-width: 350px;
