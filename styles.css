@@ -56,6 +56,10 @@ h1 {
   margin: 2rem auto;
 }
 
+.featured-section h2.fs-1 {
+  font-size: 2rem; /* override Bootstrap fs-1 */
+}
+
 .card-img-top {
   height: 200px;
   object-fit: contain;
@@ -95,6 +99,10 @@ form textarea {
   display: block;
 }
 
+.submit-btn:hover {
+  background-color: #0d3b66;
+}
+
 .line {
   height: 2px;
   width: 100%;
@@ -112,6 +120,12 @@ form textarea {
   .featured-section p,
   .about-section p {
     font-size: 1.25rem;
+  }
+
+  .featured-section h2,
+  .about-section h2,
+  .menu-section h2 {
+    font-size: 2.5rem;
   }
 
   .about-section button {
