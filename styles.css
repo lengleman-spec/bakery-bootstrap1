@@ -116,10 +116,18 @@ form textarea {
   width: 100%;
 }
 
+.footer-links {
+  font-size: 1.5rem;
+}
+
 .footer-links a.text-dark:hover {
   color: rgb(34, 0, 228) !important;
   transform: scale(1.2);
   transition: all 0.3s ease;
+}
+
+.copyright {
+  font-size: 1.2rem;
 }
 
 /* Media Queries */
@@ -182,6 +190,13 @@ form textarea {
 
   .featured-section h3 {
     font-size: 1rem;
+  }
+  .footer-links a {
+    font-size: 2rem;
+  }
+
+  .copyright {
+    font-size: 1.5rem;
   }
 }
 
