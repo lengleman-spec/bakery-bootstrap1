@@ -133,6 +133,14 @@ form textarea {
 /* Media Queries */
 @media screen and (min-width: 768px) {
   /* md breakpoint */
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .cursive-text {
+    font-size: 3rem;
+  }
+
   .navbar-toggler {
     transform: scale(1.5);
   }
@@ -191,6 +199,7 @@ form textarea {
   .featured-section h3 {
     font-size: 1rem;
   }
+
   .footer-links a {
     font-size: 2rem;
   }
@@ -201,6 +210,9 @@ form textarea {
 }
 
 @media screen and (min-width: 1000px) {
+  .nav-link {
+    font-size: 1.7rem;
+  }
   .about-section h2 {
     font-size: 3rem;
   }
@@ -213,5 +225,25 @@ form textarea {
     font-size: 2rem;
     padding: 1rem 2rem;
     border-radius: 22px;
+  }
+
+  .form-container {
+    max-width: 800px;
+  }
+
+  form h2 {
+    font-size: 2.3rem;
+  }
+
+  form label {
+    font-size: 1.5rem;
+  }
+
+  form input {
+    height: 50px;
+  }
+
+  .submit-btn {
+    font-size: 1.5rem;
   }
 }
