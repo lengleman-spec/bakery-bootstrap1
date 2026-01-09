@@ -145,6 +145,14 @@ form textarea {
     padding: 0.5rem 1rem;
   }
 
+  .card-container p {
+    font-size: 1.5rem;
+  }
+
+  .card-container h5 {
+    font-size: 2rem;
+  }
+
   .menu-card-width {
     max-width: 900px;
   }
@@ -157,6 +165,10 @@ form textarea {
   .move-right:hover {
     transform: translateX(10px);
     transition: transform 0.3s ease;
+  }
+
+  .featured-section h3 {
+    font-size: 1rem;
   }
 }
 
